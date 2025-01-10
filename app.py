@@ -41,7 +41,7 @@ def predict(city, occupation, dependents, income, age, loan_repayment, insurance
     Education_model = pickle.load(open('Model/education_liReg_model.pkl','rb'))
     Entertainment_model = pickle.load(open('Model/Entertainment.pkl','rb'))
     Health_care_model = pickle.load(open('Model/Health_care_model.pkl','rb'))
-    Miscellaneous_care_model = pickle.load(open('Model\Miscellaneous.pkl','rb'))
+    Miscellaneous_care_model = pickle.load(open('Model/Miscellaneous.pkl','rb'))
     Transport_care_model = pickle.load(open('Model/Transport.pkl','rb'))
     Utilities_care_model = pickle.load(open('Model/Utilities.pkl','rb'))
     
