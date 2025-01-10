@@ -53,7 +53,7 @@ def predict(city, occupation, dependents, income, age, loan_repayment, insurance
     Health_care_city_encode = pickle.load(open('City/Health_care_model_City.pkl','rb'))
     Miscellaneous_care_city_encode = pickle.load(open('City/Miscellaneous_City.pkl','rb'))
     Transport_care_city_encode = pickle.load(open('City/Transport_City.pkl','rb'))
-    Utilities_care_city_encode = pickle.load(open('City/Utilities_city.pkl','rb'))
+    Utilities_care_city_encode = pickle.load(open('City/Utilities_City.pkl','rb'))
     
     ## Occupation Encode
     Groceries_occ_encode = pickle.load(open('Occupation/Groceries_lb1_occupation.pkl','rb'))
